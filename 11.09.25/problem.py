@@ -1,22 +1,22 @@
 #given 
-#A = int(input())
+A = int(input())
 
-#condition
-#if A%4 == 0:
- #   print("It is a Leap Year")
-#else:
- #   print("It is not a Leap year")
+condition
+if A%4 == 0:
+   print("It is a Leap Year")
+else:
+   print("It is not a Leap year")
 
 #problem -2
 
-#given
-#n = int(input())
+given
+n = int(input())
 
-#Condition
-#if n%5 == 0 or n%3 == 0:
- #   print("Divisible")
-#else:
- #   print("not divisible")
+Condition
+if n%5 == 0 or n%3 == 0:
+   print("Divisible")
+else:
+   print("not divisible")
 
  #problem-3
 
