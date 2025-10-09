@@ -1,4 +1,3 @@
 a = 10
 b = "hello world"
-c = 20.0
-
+c = 20.2
