@@ -48,7 +48,7 @@
 # print(word) 
 
 # # Question - 5
-# password = input("Enter the Password: ")
+# password = str(input("Enter the Password: "))
 # special = "!@#$%^&*"
 
 # for i in password:
