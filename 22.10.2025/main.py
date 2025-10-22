@@ -1,6 +1,5 @@
 # #Question - 1
 # #(i)
-# #Input
 # Sentence = str(input("Enter the Sentence: "))
 
 # #Split
