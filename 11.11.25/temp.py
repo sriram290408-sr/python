@@ -1,3 +1,4 @@
+#sum - 1
 def high_low(temp):
     avg_li = []
     cities = []
@@ -19,3 +20,16 @@ high_low({
     "Bangalore": [27, 28, 26, 29],
     "Delhi": [35, 36, 38, 37],
 })
+
+#sum -2
+emp = {
+    "E01" : {"name": "Ravi", "dept": "IT"},
+    "E02" : {"name": "Meena", "dept": "HR"},
+    "E03" : {"name": "Raj", "dept": "IT"}
+}
+result = ""
+for value in emp.values():
+    a = value
+    if a["dept"] == "IT":
+        result += a["name"] + " "
+print(result)
