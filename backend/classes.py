@@ -1,20 +1,20 @@
 #sum - 1
-# class todolist:
-#     def __init__(self):
-#         self.tasks = []
+class todolist:
+    def __init__(self):
+        self.tasks = []
 
-#     def add_task(self, task_id, task_name, status="pending"):
-#         current_task = {"id" : task_id, "name" : task_name, "status" : status}
-#         self.tasks.append(current_task)
-#         print(self.tasks)
+    def add_task(self, task_id, task_name, status="pending"):
+        current_task = {"id" : task_id, "name" : task_name, "status" : status}
+        self.tasks.append(current_task)
+        print(self.tasks)
 
-#     def view_all_tasks(self):
-#         print(self.tasks)
+    def view_all_tasks(self):
+        print(self.tasks)
 
-# todo = todolist()
-# todo.add_task(task_id = 1, task_name = "Website", status = "completed")
-# todo.add_task(task_id = 2, task_name = "Python",  status = "completed")
-# todo.view_all_tasks() 
+todo = todolist()
+todo.add_task(task_id = 1, task_name = "Website", status = "completed")
+todo.add_task(task_id = 2, task_name = "Python",  status = "completed")
+todo.view_all_tasks() 
 
 #sum - 2
 class orders:
