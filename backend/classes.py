@@ -30,12 +30,25 @@ class orders:
         for item in self.sales:
             if item["id"] == id:
                 self.sales.remove(item)
-                print("Item is removed successfully")
+                print("Item is removed successfully.")
                 break
         else:
             print("Item not found.")
+
+    def update_items(self, product_name, quantity):
+        for item in self.sales:
+            if item["product"] == product_name:
+                item["qt"] += quantity
+                print("Item is Updated")
+                break
+        else:
+            print("Product not found.")
+
 
 cust1 = orders()
 cust1.add_new_items(1, "Samosa", 2, 10)
 cust1.add_new_items(2, "Tea", 1, 15)
 cust1.remove_items(1)
+cust1.remove_items(3)
+cust1.update_items("Tea", 3)
+cust1.update_items("Samosa", 5)
